@@ -116,7 +116,8 @@ if __name__ == "__main__":
         recommendations = recommender.get_recommendations(chosen_title)
         print(recommendations)
         
-        recommender.save_model()
+        #recommender.save_model()
         
     except Exception as e:
+
         print(f"Error: {e}")
